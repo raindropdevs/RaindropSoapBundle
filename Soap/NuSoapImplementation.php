@@ -28,8 +28,6 @@ class NuSoapImplementation implements SoapInterface
                 $parameters['response_timeout'],
                 $parameters['portName']
             );
-
-        return $this->soapClient;
     }
 
     /**
