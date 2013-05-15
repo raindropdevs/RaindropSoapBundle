@@ -10,9 +10,8 @@ interface SoapInterface
     /**
      * Initialize a SOAP client
      *
-     * @param  string $wsdl
-     * @param  array  $options
-     * @return mixed  A SOAP client
+     * @param string $wsdl
+     * @param array  $options
      */
     public function initialize($wsdl, array $options);
 

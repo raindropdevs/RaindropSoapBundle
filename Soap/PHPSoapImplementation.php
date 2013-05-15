@@ -18,8 +18,6 @@ class PHPSoapImplementation implements SoapInterface
     public function initialize($wsdl, array $parameters)
     {
         $this->soapClient = new \SoapClient($wsdl, $parameters);
-
-        return $this->soapClient;
     }
 
     /**
