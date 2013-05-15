@@ -7,6 +7,7 @@
     <parameters>
         <parameter key="raindrop_soap.php_client.class">Raindrop\SoapBundle\Soap\PHPSoapImplementation</parameter>
         <parameter key="raindrop_soap.nusoap_client.class">Raindrop\SoapBundle\Soap\NuSoapImplementation</parameter>
+        <parameter key="raindrop_soap.manager.class">Raindrop\SoapBundle\Soap\SoapManager</parameter>
     </parameters>
 
     <services>
