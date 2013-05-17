@@ -18,9 +18,9 @@ interface SoapInterface
     /**
      * Calls a SOAP function
      *
-     * @param  string $functionName
-     * @param  array  $arguments
-     * @return mixed  The response from SOAP call
+     * @param  string       $functionName
+     * @param  array|Object $arguments
+     * @return mixed        The response from SOAP call
      */
-    public function call($functionName, array $arguments);
+    public function call($functionName, $arguments);
 }

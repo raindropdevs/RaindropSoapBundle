@@ -33,7 +33,7 @@ class NuSoapImplementation implements SoapInterface
     /**
      * {@inheritDoc}
      */
-    public function call($functionName, array $arguments)
+    public function call($functionName, $arguments)
     {
         return $this->soapClient->call($functionName, $arguments);
     }
