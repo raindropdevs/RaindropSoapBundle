@@ -32,4 +32,14 @@ class SoapManager implements SoapInterface
     {
         return $this->soapClient->call($functionName, $arguments);
     }
+
+    /**
+     * Get $soapClient
+     *
+     * @return SoapClientInterface
+     */
+    public function getSoapClient()
+    {
+        return $this->soapClient;
+    }
 }
