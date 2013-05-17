@@ -22,7 +22,7 @@ class SoapManager implements SoapInterface
      */
     public function initialize($wsdl, array $parameters)
     {
-        $this->soapClient->initialize($wsdl, $options);
+        $this->soapClient->initialize($wsdl, $parameters);
     }
 
     /**
