@@ -19,7 +19,7 @@
                 "name": "nusphere/nusoap",
                 "version": "0.1.0",
                 "source": {
-                    "url": "git@github.com:tinoadams/NuSOAP.git",
+                    "url": "https://github.com/tinoadams/NuSOAP.git",
                     "type": "git",
                     "reference": "master"
                 },
