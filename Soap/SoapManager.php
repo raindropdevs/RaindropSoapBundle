@@ -34,12 +34,10 @@ class SoapManager implements SoapInterface
     }
 
     /**
-     * Get $soapClient
-     *
-     * @return SoapClientInterface
+     * {@inheritDoc}
      */
     public function getSoapClient()
     {
-        return $this->soapClient;
+        return $this->soapClient->getSoapClient();
     }
 }
