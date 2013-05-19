@@ -23,4 +23,9 @@ interface SoapInterface
      * @return mixed        The response from SOAP call
      */
     public function call($functionName, $arguments);
+
+    /**
+     * Gets the SOAP Client
+     */
+    public function getSoapClient();
 }

@@ -37,4 +37,12 @@ class NuSoapImplementation implements SoapInterface
     {
         return $this->soapClient->call($functionName, $arguments);
     }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSoapClient()
+    {
+        return $this->soapClient;
+    }
 }
