@@ -27,4 +27,12 @@ class PHPSoapImplementation implements SoapInterface
     {
         return $this->soapClient->__soapCall($functionName, $arguments);
     }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSoapClient()
+    {
+        return $this->soapClient;
+    }
 }
